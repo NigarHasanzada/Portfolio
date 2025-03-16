@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#card_area{
+    display: flex;
+    width: 100v;
+    height: 100vh;
+
+}
+.container{
+    width: 1300px;
+    height: 100vh;
+    margin: 30px;
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+
+}
+.boxs_pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100vh;
+    width: 1280px;
+    gap: 10px;
+}
+.card {
+    width: 250px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: start;
+    height: 400px;
+    transition: 0.6s;
+   
+}
+
+.card:hover {
+    transition: 0.6s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+img{
+    border-radius: 10px;
+}
+.image {
+    width: 100%;
+    height: 300px;
+
+}
+
+.image img {
+    width: 100%;
+
+}
+
+
+
+.text_mini h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.text_mini p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+.star {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    gap: 5px;
+}
+
+.star i {
+    color: #FFD700;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+/* Sol yanı:(((((((((( */
+
+.sidebar {
+    width: 350px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: min-content;
+
+    
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.search-box input {
+    border: none;
+    flex: 1;
+}
+
+
+.filter-section {
+    margin-bottom: 25px;
+}
+
+.filter-section h3 {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.filter-section ul {
+    list-style: none;
+}
+
+.filter-section ul li {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+
+
+.size-options button {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    margin: 3px;
+    transition: 0.5s;
+}
+
+.size-options button:hover {
+    background-color: aquamarine;
+    transition: 0.5s;
+}
+
+.color-options {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.color {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.black {
+     background: rgb(129, 86, 86); 
+    }
+.red { 
+    background: red;
+ }
+.blue {
+     background: rgb(101, 101, 231);
+     }
+.orange { 
+    background: orange;
+ }
+.yellow {
+     background: yellow;
+     }
+.gray { 
+    background: rgb(255, 0, 149);
+ }
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tags span {
+    background: #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 12px;
+    transition: 0.5s;
+}
+
+.tags span:hover {
+    background-color: aquamarine;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 12px;
+    transition: 0.5s;
+}
+
+
+
