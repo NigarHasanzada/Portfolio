@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 60%;
+    margin: 200px auto;
+}
+
+.text-block {
+    margin-bottom: 40px;
+  
+
+}
+
+.time-text {
+    display: flex;
+    width: 700px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    width: 360px;
+    padding: 30px;
+}
+
+.normal-text, .font-text {
+    font-size: 16px;
+    color: black;
+    margin-left: 10px;
+}
+
+.font-text {
+    font-style: italic;
+    font-family: "Times New Roman", serif;
+}

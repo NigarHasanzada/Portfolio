@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(128,96,221,1) 45%, rgba(148,59,229,1) 93%);
+    
+}
+.container{
+    border: 1px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top : 80px;;
+    width: 350px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 3px;
+    background-color: white;
+   }
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login .fa-solid{ 
+   margin-left: auto;
+}
+.container .login h1{
+    margin-left: auto;
+    margin-right: auto;
+}
+.login input{
+    border-radius: 5px;
+    line-height: 2;
+}
+input[type="submit"]{
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(128,96,221,1) 45%, rgba(148,59,229,1) 93%);
+    
+
+}
+

@@ -1,0 +1,62 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-repeat: no-repeat;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.home {
+    text-align: center;
+}
+
+
+.metn h1 {
+    font-size: 280px;
+    font-family: "Dancing Script", cursive;
+    color: rgb(0, 0, 0);
+}
+
+.metn h2 {
+    font-size: 40px;
+    font-family: "Playfair Display", cursive;
+    color: rgb(162, 119, 0);
+}
+.metn h3 {
+    font-size: 38px;
+    font-family: "Gentium Plus", cursive;
+   
+}
+
+
+
+footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    background-image: url(assets/img/footer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.thetag{
+    position: absolute;
+    top: 240px;
+right: 780px;
+font-size: 40px;
+
+}
