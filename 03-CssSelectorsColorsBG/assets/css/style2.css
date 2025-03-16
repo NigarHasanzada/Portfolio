@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.metn {
+    position: relative; 
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 600px; 
+    height: 600px; 
+    overflow: auto; 
+    border: 5px solid #000; 
+    padding: 10px; 
+}
+
+.metn .background {
+    position: absolute;
+
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    z-index: 0;
+}
+
+.metn .background img {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto;
+
+}
+
+.content {
+    position: relative;
+    text-align: center;
+    z-index: 1; 
+    padding: 10px;
+}
+
+.content p {
+    color: gold;
+    width: 100%; 
+    max-width: 100%; 
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
