@@ -1,0 +1,22 @@
+                    <div class="right_cards">
+                        <div class="card_mini">
+                            <div class="image">
+                                <img src="assets/img/baner-right-image-04.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="card_mini">
+                            <div class="image">
+                                <img src="assets/img/baner-right-image-02.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="card_mini">
+                            <div class="image">
+                                <img src="assets/img/baner-right-image-01.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="card_mini">
+                            <div class="image">
+                                <img src="assets/img/baner-right-image-03.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
