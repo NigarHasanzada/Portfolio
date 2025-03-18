@@ -1,0 +1,28 @@
+* ,::after
+   ::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+.container{
+    max-width: 129rem;
+    margin: 0 auto;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
