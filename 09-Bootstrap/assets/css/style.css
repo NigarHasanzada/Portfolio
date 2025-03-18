@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dotted_list a{
+    color: white;
+    list-style: none;
+    font-size: 15px;
+    
+}
+
+.card_texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-title{
+    font-size: 35px;
+}
+
+.card-title_1{
+    font-weight: bold;
+    font-size: 57px;
+}
+
+.card{
+    height: 700px;
+}
+.card img{
+    height: 700px;
+}
+.backcolor{
+    background-color: rgba(2, 2, 51);
+}
+.button_yellow{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 220px;
+    height: 55px;
+}
+.servives_area{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bacColor{
+    height: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.text_problem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cirle_yellow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: rgb(224, 200, 22);
+    color: white;
+    font-size: 60px;
+}
+#text_services{
+    padding: 50px 0px;
+}
+.text_services{
+    padding: 20px 0px;
+}
+.col-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cardS{
+    width: 370px;
+    height: 370px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card_areaS{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+.card_body_text{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer_area{
+    display: flex;
+    width: 100%;
+    background-color: antiquewhite;
+    
+}
+.list_item_footer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.list_item_footer li{
+    list-style: none;
+}
+.list_item_footer .items{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+
+}
+
+.Contact_Us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+   }
+
+   .Contact_Us .text_services{
+    color: white;
+   }
+
+   .Contact_Us .box{
+    margin: 20px auto;
+   }
+
+   .Contact_Us .box label{
+    color: white;
+   }
+
+.text_services {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.Contact_Us .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.col-2 {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .col-6 {
+        width: 100%; 
+    }
+}
+
+.textType{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.thats_end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
