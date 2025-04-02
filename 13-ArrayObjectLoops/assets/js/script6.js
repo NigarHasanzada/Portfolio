@@ -1,4 +1,4 @@
-const numbers = [10, 25, 3, 99, 48, 57];
+const numbers = [203, 19, 2, 13, 196, 86, 35, 77];
 
 let maxNumber = numbers[0];
 
